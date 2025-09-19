@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popular Destinations</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f4ef;
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #6b4b2f;
+    }
+
+    /* Category Filters */
+    .filters {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 0.5rem 1rem;
+      border: 1px solid #c5a37b;
+      background: white;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: #c5a37b;
+      color: white;
+    }
+
+    /* Destination Grid */
+    .destinations {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .destination-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s ease;
+    }
+
+    .destination-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .destination-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .destination-content {
+      padding: 1rem;
+    }
+
+    .destination-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #6b4b2f;
+      margin: 0;
+    }
+
+    .destination-desc {
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+      color: #555;
+    }
+
+    .explore-link {
+      display: inline-block;
+      color: #c57f3b;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 0.5rem;
+      transition: color 0.3s ease;
+    }
+
+    .explore-link:hover {
+      color: #a86428;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h2>Popular Destinations</h2>
+    <div class="filters">
+      <button class="filter-btn active">Ancient Wonders</button>
+      <button class="filter-btn">Wildlife</button>
+      <button class="filter-btn">Culture</button>
+      <button class="filter-btn">Beach</button>
+    </div>
+
+    <div class="destinations">
+      <div class="destination-card">
+        <img src="egypt.jpg" alt="Egypt">
+        <div class="destination-content">
+          <h3 class="destination-title">Egypt</h3>
+          <p class="destination-desc">Fascinating culture & Great Temples</p>
+          <a href="#" class="explore-link">Explore →</a>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="nigeria.jpg" alt="Nigeria">
+        <div class="destination-content">
+          <h3 class="destination-title">Nigeria</h3>
+          <p class="destination-desc">Warm Nigerian hospitality</p>
+          <a href="#" class="explore-link">Explore →</a>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="sudan.jpg" alt="Sudan">
+        <div class="destination-content">
+          <h3 class="destination-title">Sudan</h3>
+          <p class="destination-desc">Pyramids & peaceful Nile</p>
+          <a href="#" class="explore-link">Explore →</a>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="tunisia.jpg" alt="Tunisia">
+        <div class="destination-content">
+          <h3 class="destination-title">Tunisia</h3>
+          <p class="destination-desc">Historic ruins & culture</p>
+          <a href="#" class="explore-link">Explore →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

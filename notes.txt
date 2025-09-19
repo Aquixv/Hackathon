@@ -1,0 +1,6 @@
+<div class="displays">
+<div class="displays boxx1"><img src="IMG-20250918-WA0243.jpg" alt="" height="50%" width="200px"><div class="text4"><header class="heade"> Egypt</header><p>Pyramids of Giza & Luxor Temples.<br>Explore<img src="C:\Users\owner\Documents\HTML\HTML @SQI\Icons\arrow-forward.png" width="20px"></div></p></div>
+<div class="displays boxx2"><img src="IMG-20250918-WA0253.jpg" alt="" height="50%" width="200px"><div class="text4"><header class="heade"> Nigeria</header><p>Benin Kingdom artifacts <br>Explore<img src="C:\Users\owner\Documents\HTML\HTML @SQI\Icons\arrow-forward.png" width="20px"></p></div></div>
+<div class="displays boxx3"><img src="IMG-20250918-WA0252.jpg" alt="" height="50%" width="200px"><div class="text4"><header class="heade"> Sudan</header><p>Forgotten pyramids of Meroë.<br>Explore<img src="C:\Users\owner\Documents\HTML\HTML @SQI\Icons\arrow-forward.png" width="20px"></p></div></div>
+<div class="displays boxx4"><img src="IMG-20250918-WA0255.jpg" alt="" height="50%" width="200px"><div class="text4"><header class="heade"> Tunisia</header><p>Roman ruins in Carthage <br>Explore<img src="C:\Users\owner\Documents\HTML\HTML @SQI\Icons\arrow-forward.png" width="20px"></p></div></div>
+</div>
